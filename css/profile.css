@@ -1,0 +1,62 @@
+.profile-photo-container {
+}
+.photo-zach {
+  width: 45%;
+  margin: 6%;
+}
+.profile-container {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
+}
+.profile-container h2 {
+  color: #333;
+  padding-left: 0.5em;
+  padding-top: 3em;
+  font-family: sans-serif;
+}
+article.profile-text{
+    background-color: white;
+    border-radius: 1em;
+    width: auto;
+    padding:0 1em;
+    box-shadow: 0.2em 0.2em 0.2em grey;
+}
+.profile-container p {
+  line-height: 2em;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.profile-skill-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border-radius: 1em;
+    margin: 5%;
+    box-shadow: 0.2em 0.2em 0.2em grey;
+}
+.profile-skill-container h2{
+    padding: 0;
+    margin: 0;
+    color: grey;
+    font-size: 1.3rem;
+}
+.profile-log-out-button-container{
+    display: flex;
+    justify-content: center;
+}
+.profile-logout-button{
+    width: auto;
+  padding: 17px;
+  background-color: #A2D2FF;
+  color: white;
+  font-weight: 800;
+  border-radius: 0.6em;
+  box-shadow: 0.2em 0.2rem 0.2rem grey;
+  border: 1px solid white;
+  margin-top: 0.1em;
+  
+}

@@ -1,0 +1,75 @@
+body {
+  color: #22577E;
+  margin-top: 0;
+  
+}
+h2 {
+  font-size: 1.6rem;
+  margin: 0px;
+  margin-top: 1rem;
+  padding-bottom: 1em;
+
+}
+h3 {
+  margin: 1em;
+  padding: 0;
+  color: #999;
+  font-size: 1rem;
+}
+
+.create-form {
+  width: 20rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.create-form div {
+  position: relative;
+  margin: 1rem 0;
+}
+
+label {
+  position: absolute;
+  top: 0;
+  font-size: 1.2rem;
+  margin: 0.5em;
+  padding: 0 0.6em;
+  background-color: #A2D2FF;
+  -webkit-transition: top 0.2s ease-in-out, font-size 0.2s ease-in-out;
+  transition: top 0.2s ease-in-out, font-size 0.2s ease-in-out;
+}
+
+.active {
+  top: -25px;
+  font-size: 2em;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 35px;
+  border: 1px solid white;
+  font-size: 2em;
+  background-color:#A2D2FF;
+  color: #FEF9EF;
+  border-radius: 0.6em;
+  box-shadow: 0.2em 0.2rem 0.2rem grey;
+}
+.create-submit-button {
+  width: auto;
+  padding: 16px;
+  background-color: #A2D2FF;
+  color: #22577E;
+  font-weight: 800;
+  border-radius: 0.6em;
+  box-shadow: 0.2em 0.2rem 0.2rem grey;
+  border: 1px solid white;
+}
+input[type="text"]:focus {
+  outline: none;
+}

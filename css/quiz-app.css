@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: #FF865E;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0;
+  display: block;
+  position: sticky;
+}
+header h1 {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  color: #22577E;
+  padding: 0;
+  margin: 0;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+}
+.quiz-cards-items-container {
+  width: 20em;
+  height: 13em;
+  background-color:#A2D2FF;
+  border-radius: 0.6em;
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0.1em 0.1rem 0.1rem #999;
+ border-style: hidden;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.bookmark {
+  width: 2em;
+  position: absolute;
+  top: -20px;
+  right: 20px;
+}
+.show-answer-button {
+  width: 8em;
+  margin: 0 auto;
+  background-color: #FF865E;
+  padding: 0.6em;
+  color: white;
+  border-radius: 0.6em;
+  border-color: white;
+  border-style: hidden;
+}
+/* footer */
+.footer {
+  position: relative;
+}
+.footer-container {
+  background-color: #FF865E;
+  width: 100%;
+  padding: 1.3rem;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-home-icon {
+  width: 3em;
+}
+.footer-bookmark-icon {
+  width: 3em;
+}
+.footer-create-icon {
+  width: 3em;
+}
+.footer-profile-icon {
+  width: 3em;
+}
