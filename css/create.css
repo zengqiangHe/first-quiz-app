@@ -53,19 +53,19 @@ input[type="text"] {
   border: 1px solid white;
   font-size: 2em;
   /* background-color:#A2D2FF; */
-  color: #FEF9EF;
+  color: white;
   border-radius: 0.6em;
-  box-shadow: 0.1em 0.1rem 0.1rem yellow;
+  box-shadow: 0.1em 0.1rem 0.1rem #B8E4F0;
   background: linear-gradient(#ff865e,#a2d2ff);
 }
 .create-submit-button {
   width: auto;
   padding: 16px;
   background-color: #A2D2FF;
-  color: #22577E;
+  color: white;
   font-weight: 800;
   border-radius: 0.6em;
-  box-shadow: 0.2em 0.2rem 0.2rem yellow;
+  box-shadow: 0.2em 0.2rem 0.2rem #B8E4F0;
   border: 1px solid white;
   background: linear-gradient(#ff865e,#a2d2ff);
 }
