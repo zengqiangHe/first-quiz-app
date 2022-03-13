@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 header {
-  background-color: #FF865E;
+  background-color: #ff865e;
   width: 100%;
   padding: 0.8rem;
   margin: 0;
@@ -16,7 +16,7 @@ header h1 {
   padding: 0;
 }
 h2 {
-  color: #22577E;
+  color: #22577e;
   padding: 0;
   margin: 0;
 }
@@ -28,7 +28,7 @@ h2 {
 .quiz-cards-items-container {
   width: 20em;
   height: 13em;
-  background-color:#A2D2FF;
+  background-color: #a2d2ff;
   border-radius: 0.6em;
   margin-top: 2.5em;
   margin-bottom: 0.5em;
@@ -38,7 +38,7 @@ h2 {
   justify-content: center;
   align-items: center;
   box-shadow: 0.1em 0.1rem 0.1rem #999;
- border-style: hidden;
+  border-style: hidden;
 }
 .item {
   display: flex;
@@ -55,7 +55,7 @@ h2 {
 .show-answer-button {
   width: 8em;
   margin: 0 auto;
-  background-color: #FF865E;
+  background-color: #ff865e;
   padding: 0.6em;
   color: white;
   border-radius: 0.6em;
@@ -67,9 +67,9 @@ h2 {
   position: relative;
 }
 .footer-container {
-  background-color: #FF865E;
+  background-color: #ff865e;
   width: 100%;
-  padding: 1.3rem;
+  padding: 1rem;
   margin: 0;
   position: fixed;
   bottom: 0;
@@ -77,15 +77,38 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
-.footer-home-icon {
+.footer-home-icon.current{
   width: 3em;
+  border-bottom: 2px solid white;
+  /* filter: invert(80%) */
 }
 .footer-bookmark-icon {
   width: 3em;
+  /* filter: invert(80%) */
 }
 .footer-create-icon {
   width: 3em;
+  /* filter: invert(80%) */
 }
 .footer-profile-icon {
   width: 3em;
+  /* filter: invert(100%) */
 }
+/* .current{
+  filter: invert(0%);
+  text-align: center;
+  text-decoration: underline;
+  color: black;
+} */
+.footer a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  overflow: hidden;
+
+}
+
+
