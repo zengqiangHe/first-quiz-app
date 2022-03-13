@@ -21,13 +21,16 @@ article.profile-text{
     border-radius: 1em;
     width: auto;
     padding:0 1em;
-    box-shadow: 0.2em 0.2em 0.2em grey;
+    box-shadow: 0.2em 0.2em 0.2em yellow;
+    background: linear-gradient(#ff865e,#a2d2ff);
+    
 }
 .profile-container p {
   line-height: 2em;
   font-family: "Times New Roman", Times, serif;
   font-size: 1rem;
   font-weight: 500;
+  color: #333;
 }
 .profile-skill-container{
     display: flex;
@@ -36,7 +39,8 @@ article.profile-text{
     background-color: white;
     border-radius: 1em;
     margin: 5%;
-    box-shadow: 0.2em 0.2em 0.2em grey;
+    box-shadow: 0.2em 0.2em 0.2em yellow;
+    background: linear-gradient(#ff865e,#a2d2ff);
 }
 .profile-skill-container h2{
     padding: 0;
@@ -55,10 +59,10 @@ article.profile-text{
   color: white;
   font-weight: 800;
   border-radius: 0.6em;
-  box-shadow: 0.2em 0.2rem 0.2rem grey;
+  box-shadow: 0.2em 0.2rem 0.2rem yellow;
   border: 1px solid white;
   margin-top: 0.1em;
-  
+  background: linear-gradient(#ff865e,#a2d2ff);
 }
 /* footer */
 .footer {

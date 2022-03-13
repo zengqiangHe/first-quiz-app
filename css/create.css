@@ -1,8 +1,4 @@
-body {
-  color: #22577E;
-  margin-top: 0;
-  
-}
+
 h2 {
   font-size: 1.6rem;
   margin: 0px;
@@ -40,9 +36,10 @@ label {
   font-size: 1.2rem;
   margin: 0.5em;
   padding: 0 0.6em;
-  background-color: #A2D2FF;
   -webkit-transition: top 0.2s ease-in-out, font-size 0.2s ease-in-out;
   transition: top 0.2s ease-in-out, font-size 0.2s ease-in-out;
+  /* background: linear-gradient(#ff865e,#a2d2ff); */
+  color: #FEF9EF;
 }
 
 .active {
@@ -55,10 +52,11 @@ input[type="text"] {
   padding: 35px;
   border: 1px solid white;
   font-size: 2em;
-  background-color:#A2D2FF;
+  /* background-color:#A2D2FF; */
   color: #FEF9EF;
   border-radius: 0.6em;
-  box-shadow: 0.2em 0.2rem 0.2rem grey;
+  box-shadow: 0.1em 0.1rem 0.1rem yellow;
+  background: linear-gradient(#ff865e,#a2d2ff);
 }
 .create-submit-button {
   width: auto;
@@ -67,8 +65,9 @@ input[type="text"] {
   color: #22577E;
   font-weight: 800;
   border-radius: 0.6em;
-  box-shadow: 0.2em 0.2rem 0.2rem grey;
+  box-shadow: 0.2em 0.2rem 0.2rem yellow;
   border: 1px solid white;
+  background: linear-gradient(#ff865e,#a2d2ff);
 }
 input[type="text"]:focus {
   outline: none;

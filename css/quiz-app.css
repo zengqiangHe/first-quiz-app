@@ -8,6 +8,7 @@ header {
   margin: 0;
   display: block;
   position: sticky;
+  background: linear-gradient(#ff865e,#5463FF);
 }
 header h1 {
   text-align: center;
@@ -37,8 +38,10 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0.1em 0.1rem 0.1rem #999;
+  box-shadow: 0.1em 0.1rem 0.1rem yellow;
   border-style: hidden;
+  background: linear-gradient(#ff865e,#a2d2ff);
+
 }
 .item {
   display: flex;
@@ -76,6 +79,7 @@ h2 {
   left: 0;
   display: flex;
   justify-content: space-between;
+  background: linear-gradient(#ff865e,#5463FF);
 }
 .footer-home-icon.current{
   width: 3em;
