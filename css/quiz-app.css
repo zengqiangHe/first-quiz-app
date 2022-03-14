@@ -10,6 +10,10 @@ header {
   display: block;
   position: sticky;
   background: linear-gradient(#ff865e,#5463FF);
+
+}
+main{
+  height: 110vh;
 }
 header h1 {
   text-align: center;
@@ -29,7 +33,6 @@ h2 {
 }
 .quiz-cards-items-container {
   width: 20em;
-  height: 13em;
   background-color: #a2d2ff;
   border-radius: 0.6em;
   margin-top: 2.5em;
@@ -43,6 +46,12 @@ h2 {
   border-style: hidden;
   background: linear-gradient(#ff865e,#a2d2ff);
 
+}
+.the-answer{
+  display: none;
+}
+.answer-show{
+  display: block;
 }
 .item {
   display: flex;

@@ -12,7 +12,18 @@ h3 {
   color: #999;
   font-size: 1rem;
 }
-
+textarea{
+  height: 10vh;
+  width: 80vw;
+  width: 100%;
+  border: 1px solid white;
+  font-size: 2em;
+  /* background-color:#A2D2FF; */
+  color: white;
+  border-radius: 0.6em;
+  box-shadow: 0.1em 0.1rem 0.1rem #B8E4F0;
+  background: linear-gradient(#ff865e,#a2d2ff);
+}
 .create-form {
   width: 20rem;
   position: absolute;
@@ -31,33 +42,12 @@ h3 {
 }
 
 label {
-  position: absolute;
-  top: 0;
+  text-align: left;
   font-size: 1.2rem;
-  margin: 0.5em;
-  padding: 0 0.6em;
-  -webkit-transition: top 0.2s ease-in-out, font-size 0.2s ease-in-out;
-  transition: top 0.2s ease-in-out, font-size 0.2s ease-in-out;
-  /* background: linear-gradient(#ff865e,#a2d2ff); */
-  color: #FEF9EF;
-}
-
-.active {
-  top: -25px;
-  font-size: 2em;
-}
-
-input[type="text"] {
-  width: 100%;
-  padding: 35px;
-  border: 1px solid white;
-  font-size: 2em;
-  /* background-color:#A2D2FF; */
+  margin: 0.5em 70% 0 0;
   color: white;
-  border-radius: 0.6em;
-  box-shadow: 0.1em 0.1rem 0.1rem #B8E4F0;
-  background: linear-gradient(#ff865e,#a2d2ff);
 }
+
 .create-submit-button {
   width: auto;
   padding: 16px;
@@ -68,10 +58,9 @@ input[type="text"] {
   box-shadow: 0.2em 0.2rem 0.2rem #B8E4F0;
   border: 1px solid white;
   background: linear-gradient(#ff865e,#a2d2ff);
+  margin: 0 auto;
 }
-input[type="text"]:focus {
-  outline: none;
-}
+
 /* footer */
 .footer {
   position: relative;
