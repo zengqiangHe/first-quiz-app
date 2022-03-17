@@ -1,120 +1,117 @@
 * {
-    box-sizing: border-box;
-  }
-  header {
-    background-color: #ff865e;
-    width: 100%;
-    padding: 0.8rem;
-    margin: 0;
-    display: block;
-    position: sticky;
-  }
-  header h1 {
-    text-align: center;
-    color: white;
-    margin: 0;
-    padding: 0;
-  }
-  h2 {
-    color: #22577e;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .cards-container {
-    display: flex;
-    justify-content: center;
-  }
-  .quiz-cards-items-container {
-    width: 20em;
-    background-color: #a2d2ff;
-    border-radius: 0.6em;
-    margin-top: 2.5em;
-    margin-bottom: 0.5em;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0.1em 0.1rem 0.1rem #999;
-    border-style: hidden;
-  }
-  .item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-  .bookmark {
-    width: 2em;
-    position: absolute;
-    top: -20px;
-    right: 20px;
-  }
-  .show-answer-button {
-    width: 8em;
-    margin: 0 auto;
-    background-color: #ff865e;
-    padding: 0.6em;
-    color: white;
-    border-radius: 0.6em;
-    border-color: white;
-    border-style: hidden;
-  }
-  /* footer */
-  .footer {
-    position: relative;
-  }
-  .footer-container {
-    background-color: #ff865e;
-    width: 100%;
-    padding: 1rem;
-    margin: 0;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-  }
-  .footer-home-icon{
-    width: 3em;
-    /* filter: invert(80%) */
-  }
-  .footer-bookmark-icon.current {
-    width: 3em;
-    border-bottom: 2px solid white;
-    /* filter: invert(80%) */
-  }
-  .footer-create-icon {
-    width: 3em;
-    /* filter: invert(80%) */
-  }
-  .footer-profile-icon {
-    width: 3em;
-    /* filter: invert(100%) */
-  }
-  /* .current{
+  box-sizing: border-box;
+}
+header {
+  background-color: #ff865e;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0;
+  display: block;
+  position: sticky;
+}
+header h1 {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  color: #22577e;
+  padding: 0;
+  margin: 0;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+}
+.quiz-cards-items-container {
+  width: 20em;
+  background-color: #a2d2ff;
+  border-radius: 0.6em;
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0.1em 0.1rem 0.1rem #999;
+  border-style: hidden;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.bookmark {
+  width: 2em;
+  position: absolute;
+  top: -20px;
+  right: 20px;
+}
+.show-answer-button {
+  width: 8em;
+  margin: 0 auto;
+  background-color: #ff865e;
+  padding: 0.6em;
+  color: white;
+  border-radius: 0.6em;
+  border-color: white;
+  border-style: hidden;
+}
+/* footer */
+.footer {
+  position: relative;
+}
+.footer-container {
+  background-color: #ff865e;
+  width: 100%;
+  padding: 1rem;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-home-icon {
+  width: 3em;
+  /* filter: invert(80%) */
+}
+.footer-bookmark-icon.current {
+  width: 3em;
+  border-bottom: 2px solid white;
+  /* filter: invert(80%) */
+}
+.footer-create-icon {
+  width: 3em;
+  /* filter: invert(80%) */
+}
+.footer-profile-icon {
+  width: 3em;
+  /* filter: invert(100%) */
+}
+/* .current{
     filter: invert(0%);
     text-align: center;
     text-decoration: underline;
     color: black;
   } */
-  .footer a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-    overflow: hidden;
-  
-  }
-  .footer a:hover {
-    border-bottom: 3px solid white;
-  }
-  
-  .footer a:focus {
-    border-bottom: 3px solid white;
-  }
-  
-  
+.footer a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  overflow: hidden;
+}
+.footer a:hover {
+  border-bottom: 3px solid white;
+}
+
+.footer a:focus {
+  border-bottom: 3px solid white;
+}

@@ -15,14 +15,13 @@
   padding-left: 0.5em;
   padding-top: 3em;
 }
-article.profile-text{
-    background-color: white;
-    border-radius: 1em;
-    width: auto;
-    padding:0 1em;
-    box-shadow: 0.2em 0.2em 0.2em grey;
-    /* background: linear-gradient(#ff865e,#a2d2ff); */
-    
+article.profile-text {
+  background-color: white;
+  border-radius: 1em;
+  width: auto;
+  padding: 0 1em;
+  box-shadow: 0.2em 0.2em 0.2em grey;
+  /* background: linear-gradient(#ff865e,#a2d2ff); */
 }
 .profile-container p {
   line-height: 1.7em;
@@ -30,28 +29,28 @@ article.profile-text{
   font-weight: 200;
   color: #333;
 }
-.profile-skill-container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: white;
-    border-radius: 1em;
-    margin: 5%;
-    box-shadow: 0.3em 0.3em 0.3em grey;
-    /* background: linear-gradient(#ff865e,#a2d2ff); */
+.profile-skill-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  border-radius: 1em;
+  margin: 5%;
+  box-shadow: 0.3em 0.3em 0.3em grey;
+  /* background: linear-gradient(#ff865e,#a2d2ff); */
 }
-.profile-skill-container h2{
-    padding: 0;
-    margin: 0;
-    color: #333;
-    font-size: 1.3rem;
+.profile-skill-container h2 {
+  padding: 0;
+  margin: 0;
+  color: #333;
+  font-size: 1.3rem;
 }
-.profile-log-out-button-container{
-    display: flex;
-    justify-content: center;
+.profile-log-out-button-container {
+  display: flex;
+  justify-content: center;
 }
-.profile-logout-button{
-    width: auto;
+.profile-logout-button {
+  width: auto;
   padding: 17px;
   background-color: white;
   color: #333;
@@ -77,11 +76,9 @@ article.profile-text{
   display: flex;
   justify-content: space-between;
 }
-.footer-home-icon{
+.footer-home-icon {
   width: 3em;
   /* filter: invert(80%) */
-
-
 }
 .footer-bookmark-icon {
   width: 3em;
@@ -110,7 +107,6 @@ article.profile-text{
   text-decoration: none;
   font-size: 17px;
   overflow: hidden;
-
 }
 .footer a:hover {
   border-bottom: 3px solid white;
@@ -119,5 +115,3 @@ article.profile-text{
 .footer a:focus {
   border-bottom: 3px solid white;
 }
-
-

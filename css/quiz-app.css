@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 header {
   background-color: #ff865e;
@@ -9,10 +9,9 @@ header {
   margin: 0;
   display: block;
   position: sticky;
-  background: linear-gradient(#ff865e,#5463FF);
-
+  background: linear-gradient(#ff865e, #5463ff);
 }
-main{
+main {
   height: 110vh;
 }
 header h1 {
@@ -42,15 +41,14 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0.1em 0.1rem 0.1rem #B8E4F0;
+  box-shadow: 0.1em 0.1rem 0.1rem #b8e4f0;
   border-style: hidden;
-  background: linear-gradient(#ff865e,#a2d2ff);
-
+  background: linear-gradient(#ff865e, #a2d2ff);
 }
-.the-answer{
+.the-answer {
   display: none;
 }
-.answer-show{
+.answer-show {
   display: block;
 }
 .item {
@@ -78,7 +76,6 @@ h2 {
 /* footer */
 .footer {
   position: relative;
-  
 }
 .footer-container {
   background-color: #ff865e;
@@ -90,9 +87,9 @@ h2 {
   left: 0;
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(#ff865e,#5463FF);
+  background: linear-gradient(#ff865e, #5463ff);
 }
-.footer-home-icon.current{
+.footer-home-icon.current {
   width: 3em;
   border-bottom: 2px solid white;
   /* filter: invert(80%) */
@@ -123,7 +120,4 @@ h2 {
   text-decoration: none;
   font-size: 17px;
   overflow: hidden;
-
 }
-
-

@@ -1,10 +1,8 @@
-
 h2 {
   font-size: 1.6rem;
   margin: 0px;
   margin-top: 1rem;
   padding-bottom: 1em;
-
 }
 h3 {
   margin: 1em;
@@ -12,7 +10,7 @@ h3 {
   color: #999;
   font-size: 1rem;
 }
-textarea{
+textarea {
   height: 10vh;
   width: 80vw;
   width: 100%;
@@ -21,8 +19,8 @@ textarea{
   /* background-color:#A2D2FF; */
   color: white;
   border-radius: 0.6em;
-  box-shadow: 0.1em 0.1rem 0.1rem #B8E4F0;
-  background: linear-gradient(#ff865e,#a2d2ff);
+  box-shadow: 0.1em 0.1rem 0.1rem #b8e4f0;
+  background: linear-gradient(#ff865e, #a2d2ff);
 }
 .create-form {
   width: 20rem;
@@ -51,13 +49,13 @@ label {
 .create-submit-button {
   width: auto;
   padding: 16px;
-  background-color: #A2D2FF;
+  background-color: #a2d2ff;
   color: white;
   font-weight: 800;
   border-radius: 0.6em;
-  box-shadow: 0.2em 0.2rem 0.2rem #B8E4F0;
+  box-shadow: 0.2em 0.2rem 0.2rem #b8e4f0;
   border: 1px solid white;
-  background: linear-gradient(#ff865e,#a2d2ff);
+  background: linear-gradient(#ff865e, #a2d2ff);
   margin: 0 auto;
 }
 
@@ -76,11 +74,9 @@ label {
   display: flex;
   justify-content: space-between;
 }
-.footer-home-icon{
+.footer-home-icon {
   width: 3em;
   /* filter: invert(80%) */
-
-
 }
 .footer-bookmark-icon {
   width: 3em;
@@ -93,7 +89,7 @@ label {
 }
 .footer-profile-icon {
   width: 3em;
-  
+
   /* filter: invert(100%) */
 }
 /* .current{
@@ -110,7 +106,6 @@ label {
   text-decoration: none;
   font-size: 17px;
   overflow: hidden;
-
 }
 .footer a:hover {
   border-bottom: 3px solid white;
@@ -119,4 +114,3 @@ label {
 .footer a:focus {
   border-bottom: 3px solid white;
 }
-
