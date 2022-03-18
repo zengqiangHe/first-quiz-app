@@ -22,6 +22,18 @@ textarea {
   box-shadow: 0.1em 0.1rem 0.1rem #b8e4f0;
   background: linear-gradient(#ff865e, #a2d2ff);
 }
+input {
+  color: white;
+  border-radius: 0.6em;
+  box-shadow: 0.1em 0.1rem 0.1rem #b8e4f0;
+  background: linear-gradient(#ff865e, #a2d2ff);
+  border: 1px solid white;
+  height: 5vh;
+  width: 80vw;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
 .create-form {
   width: 20rem;
   position: absolute;
@@ -41,14 +53,14 @@ textarea {
 
 label {
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0.5em 70% 0 0;
   color: white;
 }
 
 .create-submit-button {
   width: auto;
-  padding: 16px;
+  padding: 12px;
   background-color: #a2d2ff;
   color: white;
   font-weight: 800;

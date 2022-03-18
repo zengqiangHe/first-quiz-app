@@ -1,0 +1,10 @@
+.app-container {
+  display: none;
+  width: 100%;
+}
+.homepage {
+  display: block;
+}
+label {
+  width: auto;
+}

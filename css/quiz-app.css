@@ -121,3 +121,7 @@ h2 {
   font-size: 17px;
   overflow: hidden;
 }
+.section-btn {
+  background: none;
+  border: none;
+}

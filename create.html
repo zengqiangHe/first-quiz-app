@@ -27,16 +27,16 @@
       <h2>Let's create some new quizzes!</h2>
       <h3>Use a comma between your hashtags.</h3>
       <div>
-        <label for="text">Question</label>
-        <textarea type="text" class="question-create"></textarea>
+        <label id="question-label" for="question">Question</label>
+        <textarea id="question" class="question-create"></textarea>
       </div>
       <div>
-        <label for="text">Answer</label>
-        <textarea type="text" class="question-create"></textarea>
+        <label for="answer">Answer</label>
+        <textarea id="answer" class="question-create"></textarea>
       </div>
       <div>
-        <label for="text">Hashtag</label>
-        <textarea type="text" class="question-create"></textarea>
+        <label for="hashtag">Hashtag</label>
+        <input id="hashtag" type="text" class="question-create" />
       </div>
 
       <button class="create-submit-button">Submit</button>
@@ -70,5 +70,6 @@
         /></a>
       </div>
     </nav>
+    <script src="/JS/create.js"></script>
   </body>
 </html>
